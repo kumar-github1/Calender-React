@@ -34,7 +34,9 @@ function Calender() {
 
     return (
         <>
-            <div className="h-screen bg-gray-700 flex justify-center items-center">
+
+            <div className="h-screen bg-gray-700 flex  flex-col justify-center items-center gap-10">
+                <h1 className='text-5xl font-bold text-cyan-600'>Calender</h1>
                 <div className='bg-white rounded p-2'>
                     <div className='bg-blue-500 flex justify-between w-88 p-2 rounded-t'>
                         <img src="/left.png" className='hover:cursor-pointer' onClick={prevMonth} />
